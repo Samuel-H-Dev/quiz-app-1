@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "whats the capital of France",
+        "options":[
+            {
+                "answer": "Paris",
+                "isCorrect": true
+            },
+            {
+                "answer": "New York",
+                "isCorrect": false
+            },
+            {
+                "answer": "London",
+                "isCorrect": false
+            },
+            {
+                "answer": "Dublin",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "whats the capital of Japan",
+        "options":[
+            {
+                "answer": "Onigashima",
+                "isCorrect": false
+            },
+            {
+                "answer": "Tokyo",
+                "isCorrect": true
+            },
+            {
+                "answer": "Hiroshima",
+                "isCorrect": false
+            },
+            {
+                "answer": "Kyoto",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "whats the capital of Germany",
+        "options":[
+            {
+                "answer": "Paris",
+                "isCorrect": false
+            },
+            {
+                "answer": "New York",
+                "isCorrect": false
+            },
+            {
+                "answer": "Rome",
+                "isCorrect": false
+            },
+            {
+                "answer": "Berlin",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "whats the capital of Russia",
+        "options":[
+            {
+                "answer": "Berlin",
+                "isCorrect": false
+            },
+            {
+                "answer": "Moscow",
+                "isCorrect": true
+            },
+            {
+                "answer": "Norway",
+                "isCorrect": false
+            },
+            {
+                "answer": "Dublin",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "whats the capital of United States",
+        "options":[
+            {
+                "answer": "California",
+                "isCorrect": false
+            },
+            {
+                "answer": "New York",
+                "isCorrect": false
+            },
+            {
+                "answer": "Washington D.C",
+                "isCorrect": true
+            },
+            {
+                "answer": "Texas",
+                "isCorrect": false
+            }
+        ]
+    }
+]
