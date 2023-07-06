@@ -1,12 +1,19 @@
-export default function Card(){
+export default function Card({quizLength, questionId, handleAnswer, data}){
 
 
 
     return(
         <div className="card">
-        <p>1/3</p>
-        <h2>Questions</h2>
-        <p>Otions</p>
+        <p>{questionId + 1}/{quizLength}</p>
+        <h2>{data[questionId].question}</h2>
+        <ul>
+            {data[questionId].options.map((e, index) => {
+                return(
+                    <li key={index} onClick={ () => {handleAnswer(e.isCorrect)}}>{e.answer}</li>
+                )
+            }
+            )}
+        </ul>
         </div>
     )
 }
